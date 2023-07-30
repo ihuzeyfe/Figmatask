@@ -1,85 +1,122 @@
-@media only screen and (min-width: 1200px) {
-  .nvbtn, .nvbtn-logb-icondw, .nvbtn-signb, .nvbtn-logb {
-    width: 165px;
-    height: 64;
-    top: 54px;
-    border-radius: 40px;
-    border: 1px;
-    padding: 10px;
-    gap: 10;
-  }
-  .nvbtn-logb, .nvbtn-logb-icondw {
-    margin-left: 160px;
-    margin-right: 20px;
-    border: 1px rgb(70, 142, 249) solid;
-    color: rgb(70, 142, 249);
-    background: linear-gradient(139deg, rgba(57, 132, 244, 0.0397408964) 0%, rgba(12, 211, 255, 0.0173319328) 39%, rgba(47, 124, 240, 0.0033263305) 76%, rgba(14, 101, 232, 0.0397408964) 100%);
-  }
-  .nvbtn-signb {
-    background-color: rgb(70, 142, 249);
-    color: aliceblue;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none !important;
-  }
-  header {
-    background: rgb(57, 132, 244);
-    background: linear-gradient(139deg, rgba(57, 132, 244, 0.0397408964) 0%, rgba(12, 211, 255, 0.0173319328) 39%, rgba(47, 124, 240, 0.0033263305) 76%, rgba(14, 101, 232, 0.0397408964) 100%);
-  }
-  header nav {
-    display: inline-block;
-  }
-  header a {
-    display: flex !important;
-    justify-content: space-between;
-  }
-  .nav-link {
-    font-size: 1.2rem !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    line-height: normal !important;
-  }
-  .hdrnv {
-    padding-top: 35px !important;
-  }
-  .firstli {
-    margin-left: 107px;
-  }
-  .divasign {
-    color: rgb(70, 142, 249);
-    padding-top: 120px;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  h1 {
-    width: 440px;
-    padding-top: 18px;
-    color: var(--fontblack, #222);
-    font-size: 3.5rem !important;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 82px;
-  }
-  .divp {
-    width: 480px;
-    color: var(--fontsecondary, #666);
-    font-size: 1rem !important;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-  }
-  h1 span {
-    background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .nvbtn-logb-icondw {
-    margin-left: 10px !important;
-  }
+.nvbtn, .nvbtn-logb-icondw, .nvbtn-signb, .nvbtn-logb {
+  width: 165px;
+  height: 64;
+  top: 54px;
+  border-radius: 40px;
+  border: 1px;
+  padding: 10px;
+  gap: 10;
+}
+
+.nvbtn-logb, .nvbtn-logb-icondw {
+  margin-left: 160px;
+  margin-right: 20px;
+  border: 1px rgb(70, 142, 249) solid;
+  color: rgb(70, 142, 249);
+  background: linear-gradient(139deg, rgba(57, 132, 244, 0.0397408964) 0%, rgba(12, 211, 255, 0.0393319328) 39%, rgba(47, 124, 240, 0.0393263305) 76%, rgba(14, 101, 232, 0.0397408964) 100%);
+}
+
+.nvbtn-signb {
+  background-color: rgb(70, 142, 249);
+  color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+header {
+  background: linear-gradient(139deg, rgba(57, 132, 244, 0.0397408964) 0%, rgba(12, 211, 255, 0.0393319328) 39%, rgba(47, 124, 240, 0.0393263305) 76%, rgba(14, 101, 232, 0.0397408964) 100%);
+}
+header nav {
+  display: inline-block;
+}
+header a {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+}
+
+.hdrnv {
+  padding-top: 35px !important;
+}
+
+.firstli {
+  margin-left: 107px;
+}
+
+.divasign {
+  color: rgb(70, 142, 249);
+  padding-top: 120px;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h1 {
+  width: 440px;
+  padding-top: 18px;
+  color: var(--fontblack, #222);
+  font-size: 3.5rem !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+}
+
+.divp {
+  width: 480px;
+  color: var(--fontsecondary, #666);
+  font-size: 1rem !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+h1 span {
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nvbtn-logb-icondw {
+  margin-left: 10px !important;
+}
+
+.dat {
+  display: contents !important;
+}
+
+.bir {
+  position: absolute !important;
+  top: 346px;
+  left: 656px;
+}
+
+.iki {
+  position: absolute !important;
+  top: 700px;
+  left: 108px;
+}
+
+.uc {
+  position: absolute !important;
+  top: 150px;
+  left: 850px;
+}
+
+.dort {
+  position: absolute !important;
+  top: 500px;
+  left: 1280px;
 }/*# sourceMappingURL=style.css.map */
