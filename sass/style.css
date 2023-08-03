@@ -59,6 +59,12 @@
   height: 1px;
 }
 
+.vr {
+  position: absolute !important;
+  left: 442px;
+  top: 135px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -135,7 +141,7 @@ h1 span {
 
 .trending {
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -147,14 +153,14 @@ h1 span {
 
 .npc {
   color: #666;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: -0.15px;
 }
 
 .btc {
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
