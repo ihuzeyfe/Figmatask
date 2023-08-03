@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .nvbtn, .nvbtn-logb-icondw, .nvbtn-signb, .nvbtn-logb {
   width: 165px;
   height: 64;
@@ -51,6 +52,11 @@
   position: absolute !important;
   top: 500px;
   left: 1280px;
+}
+
+.hr-blurry {
+  width: 365px !important;
+  height: 1px;
 }
 
 * {
@@ -121,4 +127,44 @@ h1 span {
 
 .firstli {
   margin-left: 107px;
+}
+
+.trending::before {
+  content: "🔥";
+}
+
+.trending {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.more {
+  color: #2f7cf0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.npc {
+  color: #666;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.15px;
+}
+
+.btc {
+  color: #000;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#sectionone {
+  border-radius: 40px;
+  background: #fff;
+  border: solid 1px white;
+  position: absolute !important;
+  top: 745px;
+  box-shadow: 1px 1px 1px 1px rgb(57, 132, 244);
 }/*# sourceMappingURL=style.css.map */
