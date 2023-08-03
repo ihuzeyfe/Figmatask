@@ -1,0 +1,33 @@
+@use '../abstract/variables' as *;
+
+
+.nvbtn {
+    width: 165px;
+    height: 64;
+    top: 54px;
+    border-radius: 40px;
+    border: 1px;
+    padding: 10px;
+    gap: 10;
+  }
+  .nvbtn-logb {
+    @extend .nvbtn;
+    margin-left: 160px;
+    margin-right: 20px;
+    border: 1px $gradblue solid;
+    color: $gradblue;
+    background-image: linear-gradient(134deg, rgba(57,132,244,0.03974089635854339) 0%, rgba(12,211,255,0.017331932773109293) 39%, rgba(47,124,240,0.0033263305322128733) 76%, rgba(14,101,232,1) 100%);
+  
+  }
+  .nvbtn-signb {
+    @extend .nvbtn;
+    background-color: $gradblue;
+    color: aliceblue;
+  }
+
+  
+.nvbtn-logb-icondw {
+    @extend .nvbtn;
+    @extend .nvbtn-logb;
+    margin-left: 10px !important;
+  }
