@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.container {
+  max-width: 1650px !important;
+}
+
 .nvbtn, .nvbtn-logb-icondw, .nvbtn-signb, .nvbtn-logb {
   width: 165px;
   height: 64;
@@ -26,32 +30,36 @@
   margin-left: 10px !important;
 }
 
+.headerbtn {
+  display: flex;
+  margin-left: 150px;
+}
+
 .dat {
   display: contents !important;
 }
 
 .bir {
-  position: absolute !important;
-  top: 346px;
-  left: 656px;
+  position: relative !important;
+  top: 200px;
+  left: 350px;
 }
 
 .iki {
-  position: absolute !important;
-  top: 700px;
-  left: 108px;
+  position: relative !important;
+  top: 520px;
+  right: 100px;
 }
 
 .uc {
-  position: absolute !important;
-  top: 150px;
+  position: relative !important;
   left: 850px;
 }
 
 .dort {
-  position: absolute !important;
-  top: 500px;
-  left: 1280px;
+  position: relative !important;
+  left: 1350px;
+  top: 120px;
 }
 
 .hr-blurry {
@@ -170,7 +178,7 @@ h1 span {
   border-radius: 40px;
   background: #fff;
   border: solid 1px white;
-  position: absolute !important;
-  top: 745px;
+  margin-top: -25px;
+  top: 1000px;
   box-shadow: 1px 1px 1px 1px rgb(57, 132, 244);
 }/*# sourceMappingURL=style.css.map */

@@ -1,40 +1,39 @@
 .dat {
-    display: contents !important;
-  }
-  
-  .bir {
-    position: absolute !important;
-    top: 346px;
-    left: 656px;
-  }
-  
-  .iki {
-    position: absolute !important;
-    top: 700px;
-    left: 108px;
-  }
-  
-  .uc {
-    position: absolute !important;
-    top: 150px;
-    left: 850px;
-  }
-  
-  .dort {
-    position: absolute !important;
-    top: 500px;
-    left: 1280px;
-  }
+  display: contents !important;
+}
 
-  //diveder
+.bir {
+  position: relative !important;
+  top: 200px;
+  left: 350px;
+}
 
-  .hr-blurry {
-    width: 365px !important;
-   height: 1px;
-  }
+.iki {
+  position: relative !important;
+  top: 520px;
+  right: 100px;
+}
 
-  .vr{
-    position: absolute !important;
-    left: 442px;
-    top: 135px;
-  }
+.uc {
+  position: relative !important;
+  left: 850px;
+}
+
+.dort {
+  position: relative !important;
+    left: 1350px;
+    top: 120px;
+}
+
+//diveder
+
+.hr-blurry {
+  width: 365px !important;
+  height: 1px;
+}
+
+.vr {
+  position: absolute !important;
+  left: 442px;
+  top: 135px;
+}
