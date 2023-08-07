@@ -3,6 +3,10 @@
   max-width: 1650px !important;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .nvbtn, .nvbtn-logb-icondw, .nvbtn-signb, .nvbtn-logb {
   width: 165px;
   height: 64;
