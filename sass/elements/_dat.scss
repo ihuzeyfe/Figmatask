@@ -10,8 +10,8 @@
 
 .iki {
   position: relative !important;
-  top: 520px;
-  right: 100px;
+  top: 650px;
+
 }
 
 .uc {
@@ -30,10 +30,16 @@
 .hr-blurry {
   width: 365px !important;
   height: 1px;
+  color:rgb(8, 7, 7, .5)
 }
 
 .vr {
-  position: absolute !important;
-  left: 442px;
-  top: 135px;
+  position: relative !important;
+  color:rgb(8, 7, 7, .5)
+}
+
+.one {
+  @extend .vr;
+  left: 500px;
+  top: -300px;
 }

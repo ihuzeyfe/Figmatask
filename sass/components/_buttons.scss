@@ -1,44 +1,54 @@
-@use '../abstract/variables' as *;
-
+@use "../abstract/variables" as *;
 
 .nvbtn {
-    width: 165px;
-    height: 64;
-    top: 54px;
-    border-radius: 40px;
-    border: 1px;
-    padding: 10px;
-    gap: 10;
-  }
-  .nvbtn-logb {
-    @extend .nvbtn;
-    margin-left: 160px;
-    margin-right: 20px;
-    border: 1px $gradblue solid;
-    color: $gradblue;
-    background-image: linear-gradient(134deg, rgba(57,132,244,0.03974089635854339) 0%, rgba(12,211,255,0.017331932773109293) 39%, rgba(47,124,240,0.0033263305322128733) 76%, rgba(14,101,232,1) 100%);
-  
-  }
-  .nvbtn-signb {
-    @extend .nvbtn;
-    background-color: $gradblue;
-    color: aliceblue;
-  }
+  width: 165px;
+  height: 64;
+  top: 54px;
+  border-radius: 40px;
+  border: 1px;
+  padding: 10px;
+  gap: 10;
+}
+.nvbtn-logb {
+  @extend .nvbtn;
+  margin-left: 160px;
+  margin-right: 20px;
+  border: 1px solid;
+  border-color: linear-gradient(133deg, #468ef9 0%, #0c66ee 100%);
+  color: $gradblue;
+  background: transparent;
+}
+.nvbtn-signb {
+  @extend .nvbtn;
+  background: linear-gradient(133deg, rgba(70, 142, 249, 1) 0%, #0e65e8 100%);
+  color: aliceblue;
+}
 
-  
 .nvbtn-logb-icondw {
-    @extend .nvbtn;
-    @extend .nvbtn-logb;
-    margin-left: 10px !important;
-  }
+  @extend .nvbtn;
+  @extend .nvbtn-logb;
+  margin-left: 10px !important;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(133deg, #468ef9, #0c66ee) border-box;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
 
-  .headerbtn {
-    display: flex;
-    margin-left: 150px;
-  }
+.headerbtn {
+  display: flex;
+  margin-left: 150px;
+}
 
-  // sectionone BG
+// sectionone BG
 
+// sectionone Bg
 
-
-  // sectionone Bg
+// section 2
+.abdbtn {
+  background-color: transparent;
+  align-items: center;
+  padding: 15px;
+  border-radius: 22px;
+  border-color: $gradblue;
+}
+//section 2

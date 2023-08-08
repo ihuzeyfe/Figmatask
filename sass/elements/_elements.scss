@@ -83,7 +83,30 @@ h1 {
   }
 
   //section 1
- .trending::before {
+ .trending1::before {
   content: "🔥";
  }
+ .trending2::before {
+  content: "🚀";
+ }
+.trending3::before{
+  content: "💎";
+}
   // section1
+
+  //section 2
+
+.input1{
+  border: none;
+    height: 4rem;
+    width: 12rem;
+}
+
+.npt {
+  border: 2px solid v.$gradblue ;
+  border-radius: 22px;
+ padding: 5px;
+ color: v.$gradblue ;
+
+}
+  // section2

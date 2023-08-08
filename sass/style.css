@@ -20,23 +20,35 @@ body {
 .nvbtn-logb, .nvbtn-logb-icondw {
   margin-left: 160px;
   margin-right: 20px;
-  border: 1px rgb(70, 142, 249) solid;
+  border: 1px solid;
+  border-color: linear-gradient(133deg, #468ef9 0%, #0c66ee 100%);
   color: rgb(70, 142, 249);
-  background-image: linear-gradient(134deg, rgba(57, 132, 244, 0.0397408964) 0%, rgba(12, 211, 255, 0.0173319328) 39%, rgba(47, 124, 240, 0.0033263305) 76%, rgb(14, 101, 232) 100%);
+  background: transparent;
 }
 
 .nvbtn-signb {
-  background-color: rgb(70, 142, 249);
+  background: linear-gradient(133deg, rgb(70, 142, 249) 0%, #0e65e8 100%);
   color: aliceblue;
 }
 
 .nvbtn-logb-icondw {
   margin-left: 10px !important;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(133deg, #468ef9, #0c66ee) border-box;
+  border: 1px solid transparent;
+  border-radius: 50px;
 }
 
 .headerbtn {
   display: flex;
   margin-left: 150px;
+}
+
+.abdbtn {
+  background-color: transparent;
+  align-items: center;
+  padding: 15px;
+  border-radius: 22px;
+  border-color: rgb(70, 142, 249);
 }
 
 .dat {
@@ -51,8 +63,7 @@ body {
 
 .iki {
   position: relative !important;
-  top: 520px;
-  right: 100px;
+  top: 650px;
 }
 
 .uc {
@@ -69,12 +80,17 @@ body {
 .hr-blurry {
   width: 365px !important;
   height: 1px;
+  color: rgba(8, 7, 7, 0.5);
 }
 
-.vr {
-  position: absolute !important;
-  left: 442px;
-  top: 135px;
+.vr, .one {
+  position: relative !important;
+  color: rgba(8, 7, 7, 0.5);
+}
+
+.one {
+  left: 500px;
+  top: -300px;
 }
 
 * {
@@ -147,8 +163,29 @@ h1 span {
   margin-left: 107px;
 }
 
-.trending::before {
+.trending1::before {
   content: "🔥";
+}
+
+.trending2::before {
+  content: "🚀";
+}
+
+.trending3::before {
+  content: "💎";
+}
+
+.input1 {
+  border: none;
+  height: 4rem;
+  width: 12rem;
+}
+
+.npt {
+  border: 2px solid rgb(70, 142, 249);
+  border-radius: 22px;
+  padding: 5px;
+  color: rgb(70, 142, 249);
 }
 
 .trending {
@@ -176,6 +213,7 @@ h1 span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 120px;
 }
 
 #sectionone {
@@ -184,5 +222,5 @@ h1 span {
   border: solid 1px white;
   margin-top: -25px;
   top: 1000px;
-  box-shadow: 1px 1px 1px 1px rgb(57, 132, 244);
+  min-width: 750px;
 }/*# sourceMappingURL=style.css.map */
