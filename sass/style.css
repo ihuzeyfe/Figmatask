@@ -51,6 +51,15 @@ body {
   border-color: rgb(70, 142, 249);
 }
 
+#buybtn {
+  margin-top: 1rem;
+  padding: 20px;
+  background: rgb(70, 142, 249);
+  border-radius: 40px;
+  border-color: rgb(70, 142, 249);
+  color: white;
+}
+
 .dat {
   display: contents !important;
 }
@@ -186,6 +195,15 @@ h1 span {
   border-radius: 22px;
   padding: 5px;
   color: rgb(70, 142, 249);
+}
+
+.divbuybtn {
+  margin-bottom: 3rem;
+  width: 32.5rem;
+}
+
+.divcolusd {
+  padding-left: 7rem !important;
 }
 
 .trending {
