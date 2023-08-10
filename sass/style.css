@@ -211,6 +211,14 @@ h1 span {
   border-radius: 30px;
 }
 
+.secdortdiv {
+  margin-left: 8rem;
+}
+
+.checked::marker {
+  content: "✅" !important;
+}
+
 .trending {
   color: #000;
   font-size: 1rem;
