@@ -206,6 +206,11 @@ h1 span {
   padding-left: 7rem !important;
 }
 
+.bgcol {
+  background-color: #e6edf5;
+  border-radius: 30px;
+}
+
 .trending {
   color: #000;
   font-size: 1rem;
