@@ -279,6 +279,26 @@ p {
   background: #FAFAFA;
 }
 
+.dvbrd {
+  border: 1px solid #DDD;
+}
+
+.secbr {
+  border-top: 0.8px solid #DDD;
+}
+
+.nefabrd {
+  border-bottom: 0.8px solid #DDD;
+}
+
+footer i {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .trending {
   color: #000;
   font-size: 1rem;
