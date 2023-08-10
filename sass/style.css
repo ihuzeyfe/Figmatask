@@ -38,6 +38,15 @@ body {
   border-radius: 50px;
 }
 
+.watlist {
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(133deg, #468ef9, #0c66ee) border-box;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  gap: 5px;
+  color: rgb(70, 142, 249);
+}
+
 .headerbtn {
   display: flex;
   margin-left: 150px;
@@ -139,6 +148,10 @@ h1 span {
   -webkit-text-fill-color: transparent;
 }
 
+p {
+  color: #666 !important;
+}
+
 .divp {
   width: 480px;
   color: var(--fontsecondary, #666);
@@ -211,12 +224,59 @@ h1 span {
   border-radius: 30px;
 }
 
+.nefa {
+  background: var(--gra-blue-2, linear-gradient(134deg, #3984f4 0%, #0cd3ff 39.06%, #2f7cf0 76.56%, #0e65e8 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .secdortdiv {
   margin-left: 8rem;
 }
 
 .checked::marker {
-  content: "✅" !important;
+  content: "✔️" !important;
+}
+
+.leftp {
+  padding-left: 11rem;
+}
+
+.lm {
+  color: #2F7CF0;
+  text-decoration: underline !important;
+}
+
+.undrln {
+  text-decoration: underline !important;
+}
+
+.sectseven {
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.6) 0%, rgba(244, 249, 255, 0.7) 100%);
+}
+
+.okbir {
+  position: relative;
+  top: -256px;
+  left: -169px;
+}
+
+.okiki {
+  position: relative;
+  top: -280px;
+  left: 194px;
+}
+
+.supp {
+  color: rgb(70, 142, 249);
+}
+
+.btt {
+  border-radius: 12px;
+  border: 1px solid #DDD;
+  background: #FAFAFA;
 }
 
 .trending {
