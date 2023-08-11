@@ -244,7 +244,7 @@ p {
 }
 
 .lm {
-  color: #2F7CF0;
+  color: #2f7cf0;
   text-decoration: underline !important;
 }
 
@@ -275,20 +275,24 @@ p {
 
 .btt {
   border-radius: 12px;
-  border: 1px solid #DDD;
-  background: #FAFAFA;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+a {
+  color: #666666 !important;
 }
 
 .dvbrd {
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
 }
 
 .secbr {
-  border-top: 0.8px solid #DDD;
+  border-top: 0.8px solid #ddd;
 }
 
 .nefabrd {
-  border-bottom: 0.8px solid #DDD;
+  border-bottom: 0.8px solid #ddd;
 }
 
 footer i {
@@ -297,6 +301,21 @@ footer i {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.nptf {
+  padding: 10px 10px 10px 14px;
+}
+
+.nptfdv {
+  width: 20rem !important;
+  margin-left: 20%;
+}
+
+.rbtnf {
+  border-radius: 5px !important;
+  background: rgb(31, 145, 221) !important;
+  color: white !important;
 }
 
 .trending {
